@@ -1,0 +1,47 @@
+@import '../scss/variables.scss';
+.om-os {
+  margin-top: 25px;
+  background: $bg-omos;
+  width: 90%;
+  padding: 25px;
+  .om-os-title {
+    background: $red;
+    margin-bottom: 20px;
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+    color: $white;
+    padding: 25px 0;
+    text-transform: uppercase;
+  }
+  .img-text {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    .image {
+      padding-right: 50px;
+      width: 100%;
+      height: 100%;
+    }
+    .text {
+      font-size: 24px;
+    }
+  }
+}
+@media screen and (max-width: $break-small) {
+}
+@media screen and (max-width: $break-large) {
+  .om-os {
+    margin-bottom: 25px;
+    .om-os-title {
+    }
+    .img-text {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      .image {
+        padding-right: 0;
+      }
+      .text {
+      }
+    }
+  }
+}

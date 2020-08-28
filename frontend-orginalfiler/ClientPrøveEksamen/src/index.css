@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 110%;
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}

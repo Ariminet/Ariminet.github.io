@@ -1,0 +1,53 @@
+@import '../scss/variables.scss';
+#SearchComp {
+  display: flex;
+  padding-left: 20px;
+  #search {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+    #buttonSearch {
+      border: none;
+      color: $red;
+      font-weight: 900;
+      height: 100%;
+      width: 70px;
+      background: $footer-color;
+    }
+    #InputSearch {
+      background: none;
+      border: 1px solid $footer-color;
+      margin: 5px 10px;
+    }
+  }
+  .AdvSearch {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+    margin: auto auto auto 0;
+    .SearchImg {
+      height: 15px;
+      margin: auto 5px;
+    }
+  }
+}
+
+@media screen and (max-width: $break-small) {
+}
+@media screen and (max-width: $break-large) {
+  #SearchComp {
+    #search {
+      width: 50%;
+      #buttonSearch {
+      }
+      #InputSearch {
+        width: 100%;
+      }
+    }
+    .AdvSearch {
+      margin: auto auto auto 15px;
+      .SearchImg {
+      }
+    }
+  }
+}

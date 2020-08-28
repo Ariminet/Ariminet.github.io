@@ -1,0 +1,75 @@
+@import '../scss/variables.scss';
+.NextEvent {
+  // width: 400px;
+  background: $nextEvent-bg;
+  padding: 15px;
+  display: grid;
+  .EventSpots {
+    color: white;
+
+    padding: 10px;
+    background: $red;
+    font-size: 14px;
+  }
+  .Event {
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 38px;
+    color: $gray;
+  }
+  .Date {
+    color: $gray;
+    font-style: italic;
+  }
+  .text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: $gray;
+  }
+  .price {
+    margin-top: 75px;
+    color: $gray;
+    font-weight: 900;
+    font-size: 18px;
+  }
+  .ReadMore {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 900;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    background: $red;
+  }
+}
+
+@media screen and (max-width: $break-small) {
+}
+@media screen and (max-width: $break-large) {
+  .NextEvent {
+    // width: 400px;
+    padding: 15px;
+    .EventSpots {
+    }
+    .Event {
+      font-size: 24px;
+    }
+    .Date {
+    }
+    .text {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-size: 18px;
+    }
+    .price {
+      margin-top: 25px;
+    }
+    .ReadMore {
+      padding: 5px;
+    }
+  }
+}

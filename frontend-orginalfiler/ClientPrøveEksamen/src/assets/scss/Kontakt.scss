@@ -1,0 +1,132 @@
+@import '../scss/variables.scss';
+.contact-container {
+  width: 90%;
+  padding: 25px;
+  background: $white;
+  color: $gray;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  .left-side {
+    .contact-title {
+      font-size: 28px;
+    }
+    .contact-undertitle {
+      width: 90%;
+      margin-bottom: 15px;
+    }
+    .contact-form {
+      .btn {
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 900;
+        width: 50%;
+        color: $white;
+        text-decoration: none;
+        border: none;
+        font-size: 18px;
+        padding: 10px;
+        background: $red;
+      }
+    }
+    .form-group {
+      display: grid;
+      grid-template-columns: 0.5fr;
+      .form-control {
+        background: none;
+        border: 1px solid $gray;
+        padding: 10px;
+      }
+    }
+  }
+  .right-side {
+    .company-title {
+      font-size: 24px;
+      color: $gray;
+      margin-bottom: 10px;
+    }
+    .select {
+      width: 50%;
+      padding: 5px;
+    }
+    .company-contact-details {
+      margin-top: 25px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 40px;
+      .detail-img-container {
+        .detail-img {
+          border: 1px solid black;
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .detail-info {
+        .detail-name {
+          font-size: 18px;
+          font-weight: bold;
+        }
+        .detail-status {
+          font-style: italic;
+        }
+        .detail-describtion {
+          margin: 15px 0;
+        }
+        .detail-email {
+          font-weight: 900;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: $break-small) {
+}
+@media screen and (max-width: $break-large) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'info'
+      'contact';
+    .left-side {
+      grid-area: contact;
+      .contact-title {
+      }
+      .contact-undertitle {
+      }
+      .contact-form {
+        .btn {
+          font-weight: 400;
+          width: 25%;
+        }
+      }
+      .form-group {
+        display: grid;
+        grid-template-columns: 1fr;
+        .form-control {
+        }
+      }
+    }
+    .right-side {
+      grid-area: info;
+      .company-title {
+      }
+      .select {
+      }
+      .company-contact-details {
+        .detail-img-container {
+          .detail-img {
+          }
+        }
+        .detail-info {
+          .detail-name {
+          }
+          .detail-status {
+          }
+          .detail-describtion {
+          }
+          .detail-email {
+          }
+        }
+      }
+    }
+  }
+}

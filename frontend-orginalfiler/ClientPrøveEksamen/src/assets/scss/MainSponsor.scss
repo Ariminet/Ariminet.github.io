@@ -1,0 +1,24 @@
+@import '../scss/variables.scss';
+.MainSponsor {
+  display: grid;
+  .SponsorTitle {
+    margin: 20px auto 0 auto;
+    font-size: 38px;
+    font-weight: 900;
+    color: $gray;
+  }
+  .MainSponsorImg {
+    height: 12vh;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+#Guld {
+  background: $gold-spons;
+}
+#Sølv {
+  background: $silver-spons;
+}
+#Almindelig {
+  background: $ordinary-spons;
+}

@@ -1,0 +1,115 @@
+@import '../scss/variables.scss';
+.event-container {
+  height: 100%;
+  width: 90%;
+  background: $white;
+  // margin-right: 200px;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  .left-container {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    .image-container {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .right-side {
+    padding: 15px;
+    .header-title {
+      color: $white;
+      padding: 5px;
+      background: $red;
+      font-size: 14px;
+    }
+    .event-title {
+      color: $gray;
+      font-size: 38px;
+    }
+    .date {
+      color: $gray;
+      font-style: italic;
+    }
+    .text {
+      margin-top: 15px;
+      font-size: 14px;
+      color: $gray;
+    }
+    .info-text-container {
+      margin-top: 25px;
+      .region {
+        font-weight: bold;
+      }
+      .distance {
+        font-weight: bold;
+      }
+      .price {
+        font-weight: 900;
+      }
+    }
+    .Attend-mail {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      width: 20%;
+      margin-top: 15px;
+      #email {
+        background: none;
+        border: 1px solid $gray;
+        color: $gray;
+        padding: 5px;
+      }
+      #submit {
+        color: $white;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 5px 20px;
+        background: $red;
+        border: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: $break-small) {
+}
+@media screen and (max-width: $break-large) {
+  .event-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 15px;
+    .left-container {
+      .image-container {
+      }
+    }
+    .right-side {
+      .header-title {
+        font-size: 18px;
+      }
+      .event-title {
+        text-transform: uppercase;
+      }
+      .date {
+      }
+      .text {
+        font-size: 20px;
+      }
+      .info-text-container {
+        .region {
+          font-size: 24px;
+        }
+        .distance {
+          font-size: 24px;
+        }
+        .price {
+          font-size: 24px;
+        }
+      }
+      .Attend-mail {
+        #email {
+          font-size: 24px;
+        }
+        #submit {
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import '../scss/variables.scss';
+.NewsLetterCover {
+  background: $gray;
+  display: grid;
+  padding: 10%;
+  .newsLetter {
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  #email {
+    color: $white;
+    width: 50%;
+    margin: auto;
+    background: none;
+    border: $border-white;
+    padding: 2px;
+  }
+  .tilmeld {
+    width: 50%;
+    margin: auto;
+    background: none;
+    color: $white;
+    border: $border-white;
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: $break-small) {
+}
+@media screen and (max-width: $break-large) {
+  .NewsLetterCover {
+    padding: 15% 0;
+    .newsLetter {
+    }
+    #email {
+      padding: 5px;
+    }
+    .tilmeld {
+      padding: 5px;
+    }
+  }
+}

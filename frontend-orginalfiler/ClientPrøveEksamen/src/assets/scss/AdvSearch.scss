@@ -1,0 +1,101 @@
+@import '../scss/variables.scss';
+.adv-search {
+  background: $white;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 50px;
+  width: 95%;
+
+  .AdvSearchRight {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px 25px;
+
+    .event-container {
+      background: $eventContainer;
+      // width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      .event-img {
+        height: 125px;
+        width: 100%;
+      }
+      .event-titel {
+        margin-left: 6px;
+        color: $gray;
+      }
+      .date {
+        margin-left: 6px;
+        font-size: 12px;
+        font-style: italic;
+        color: $gray;
+      }
+      .event-text {
+        margin: 0 6px;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 12px;
+        color: $gray;
+      }
+      .event-price {
+        margin-left: 6px;
+        padding-top: 15px;
+        font-weight: 900;
+        color: $gray;
+      }
+      .event-link {
+        margin: 10px 6px;
+        text-align: center;
+        font-weight: 900;
+        width: 95%;
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 5px;
+        background: $red;
+      }
+    }
+  }
+}
+
+.filter-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 80%;
+  .form-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    #løbs-navn {
+      font-weight: bold;
+    }
+    .form-control {
+      padding: 10px;
+    }
+  }
+  .radio-container {
+    margin: 25px 0;
+  }
+  .price-container {
+    margin: 25px 0;
+    label {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .price-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  select {
+    padding: 5px 15px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .btn {
+    background: $red;
+    border: none;
+    padding: 10px 5px;
+  }
+}

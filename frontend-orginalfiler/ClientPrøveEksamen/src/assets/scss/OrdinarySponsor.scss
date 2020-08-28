@@ -1,0 +1,44 @@
+@import '../scss/variables.scss';
+.Ordinary {
+  .title {
+    font-size: 24px;
+    font-weight: 900;
+    color: $white;
+    background: $red;
+    width: 30%;
+    padding: 5px 15px;
+    margin-bottom: 25px;
+  }
+  .sponsor-container {
+    display: flex;
+    padding: 0 15px;
+  }
+  .ordinary-img-container {
+    margin: 0 10px;
+    border: $border-black;
+    box-shadow: $box-shadow;
+    height: 10%;
+    width: 10%;
+    img {
+      padding: 5%;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: $break-small) {
+}
+@media screen and (max-width: $break-large) {
+  .Ordinary {
+    .title {
+      font-size: 18px;
+      width: 50%;
+    }
+    .sponsor-container {
+    }
+    .ordinary-img-container {
+      img {
+      }
+    }
+  }
+}
