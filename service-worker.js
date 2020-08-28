@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ariminet.github.io/precache-manifest.781494e4a4d5de7a91f51e3a65df4482.js"
+  "/Ariminet.github.io/precache-manifest.13f350241ec0cf72d1e417a0c3bdb17c.js"
 );
 
 self.addEventListener('message', (event) => {

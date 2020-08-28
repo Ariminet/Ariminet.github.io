@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Ariminet.github.io/static/css/main.2db71c46.chunk.css",
-    "main.js": "/Ariminet.github.io/static/js/main.c2d9751f.chunk.js",
-    "main.js.map": "/Ariminet.github.io/static/js/main.c2d9751f.chunk.js.map",
+    "main.js": "/Ariminet.github.io/static/js/main.e03b1a79.chunk.js",
+    "main.js.map": "/Ariminet.github.io/static/js/main.e03b1a79.chunk.js.map",
     "runtime-main.js": "/Ariminet.github.io/static/js/runtime-main.a31bd04b.js",
     "runtime-main.js.map": "/Ariminet.github.io/static/js/runtime-main.a31bd04b.js.map",
-    "static/js/2.907452ad.chunk.js": "/Ariminet.github.io/static/js/2.907452ad.chunk.js",
-    "static/js/2.907452ad.chunk.js.map": "/Ariminet.github.io/static/js/2.907452ad.chunk.js.map",
+    "static/js/2.fe2e96fd.chunk.js": "/Ariminet.github.io/static/js/2.fe2e96fd.chunk.js",
+    "static/js/2.fe2e96fd.chunk.js.map": "/Ariminet.github.io/static/js/2.fe2e96fd.chunk.js.map",
     "index.html": "/Ariminet.github.io/index.html",
-    "precache-manifest.781494e4a4d5de7a91f51e3a65df4482.js": "/Ariminet.github.io/precache-manifest.781494e4a4d5de7a91f51e3a65df4482.js",
+    "precache-manifest.13f350241ec0cf72d1e417a0c3bdb17c.js": "/Ariminet.github.io/precache-manifest.13f350241ec0cf72d1e417a0c3bdb17c.js",
     "service-worker.js": "/Ariminet.github.io/service-worker.js",
     "static/css/main.2db71c46.chunk.css.map": "/Ariminet.github.io/static/css/main.2db71c46.chunk.css.map",
-    "static/js/2.907452ad.chunk.js.LICENSE.txt": "/Ariminet.github.io/static/js/2.907452ad.chunk.js.LICENSE.txt"
+    "static/js/2.fe2e96fd.chunk.js.LICENSE.txt": "/Ariminet.github.io/static/js/2.fe2e96fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a31bd04b.js",
-    "static/js/2.907452ad.chunk.js",
+    "static/js/2.fe2e96fd.chunk.js",
     "static/css/main.2db71c46.chunk.css",
-    "static/js/main.c2d9751f.chunk.js"
+    "static/js/main.e03b1a79.chunk.js"
   ]
 }
