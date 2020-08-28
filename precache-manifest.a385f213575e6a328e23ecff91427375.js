@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67e043b9c7d4bdee16e5591e5b28e5b7",
+    "revision": "844906da506275398ea74a694fc3be7f",
     "url": "/Ariminet.github.io/index.html"
   },
   {
-    "revision": "f79968d311659ad93574",
+    "revision": "20bf7e1190b2641062a4",
     "url": "/Ariminet.github.io/static/css/main.2db71c46.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ariminet.github.io/static/js/2.fe2e96fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f79968d311659ad93574",
-    "url": "/Ariminet.github.io/static/js/main.e03b1a79.chunk.js"
+    "revision": "20bf7e1190b2641062a4",
+    "url": "/Ariminet.github.io/static/js/main.b25bc306.chunk.js"
   },
   {
     "revision": "b594b9a306b8ae3fd095",

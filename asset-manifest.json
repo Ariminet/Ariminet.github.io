@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Ariminet.github.io/static/css/main.2db71c46.chunk.css",
-    "main.js": "/Ariminet.github.io/static/js/main.e03b1a79.chunk.js",
-    "main.js.map": "/Ariminet.github.io/static/js/main.e03b1a79.chunk.js.map",
+    "main.js": "/Ariminet.github.io/static/js/main.b25bc306.chunk.js",
+    "main.js.map": "/Ariminet.github.io/static/js/main.b25bc306.chunk.js.map",
     "runtime-main.js": "/Ariminet.github.io/static/js/runtime-main.a31bd04b.js",
     "runtime-main.js.map": "/Ariminet.github.io/static/js/runtime-main.a31bd04b.js.map",
     "static/js/2.fe2e96fd.chunk.js": "/Ariminet.github.io/static/js/2.fe2e96fd.chunk.js",
     "static/js/2.fe2e96fd.chunk.js.map": "/Ariminet.github.io/static/js/2.fe2e96fd.chunk.js.map",
     "index.html": "/Ariminet.github.io/index.html",
-    "precache-manifest.13f350241ec0cf72d1e417a0c3bdb17c.js": "/Ariminet.github.io/precache-manifest.13f350241ec0cf72d1e417a0c3bdb17c.js",
+    "precache-manifest.a385f213575e6a328e23ecff91427375.js": "/Ariminet.github.io/precache-manifest.a385f213575e6a328e23ecff91427375.js",
     "service-worker.js": "/Ariminet.github.io/service-worker.js",
     "static/css/main.2db71c46.chunk.css.map": "/Ariminet.github.io/static/css/main.2db71c46.chunk.css.map",
     "static/js/2.fe2e96fd.chunk.js.LICENSE.txt": "/Ariminet.github.io/static/js/2.fe2e96fd.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a31bd04b.js",
     "static/js/2.fe2e96fd.chunk.js",
     "static/css/main.2db71c46.chunk.css",
-    "static/js/main.e03b1a79.chunk.js"
+    "static/js/main.b25bc306.chunk.js"
   ]
 }
